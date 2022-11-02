@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-icon{
+    margin: 20px 0px 100px 0px;
+   width: 100px;
+}
+.hero-text{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.hero-h1{
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 70px;
+}
+.hero-para{
+    line-height: 24px;
+    font-size: 20px;
+    text-align: center; 
+    width: 380px;
+    margin-bottom: 5px;
+}
+.hero-h2{
+    margin-bottom: 100px;
+}
+/* box */
+
+.upcomming-6{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.upcomming-flutter{
+    width: 400px;
+    height: 200px;
+    /* background-color: red; */
+}
+.upcomming-date{
+    /* background-color: yellow; */
+    height: 200px;
+    width: 150px;
+     padding-left: 30px;
+     padding-top: 30px;
+     /* border: 1px solid green; */
+     border-radius: 5px;
+}
+.upcomming-apply{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.apply-btn{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px;
+    margin-right: 30px;
+}
+.upcomming-nov{
+    background-color: rgb(246, 177, 75);
+    padding: 20px;
+    width: 100px;
+}
+.upcomming-year{
+    background-color: white;
+    padding: 20px;
+    width: 100px;
+}
+
+.upcomming-section{
+    background-color: rgb(36, 42, 84);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius:5px  ;
+    gap: 120px;
+   
+}
+.flutter-h4{
+    margin-top: 30px;
+}
+.upcomming-icon-6{
+    display: flex;
+    flex-direction: row;
+}
