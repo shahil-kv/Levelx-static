@@ -25,6 +25,7 @@ body{
     font-size: 65px;
     line-height: 72px;
     color: #242a54  ;
+    
    
 }
 .hero-para{
@@ -45,5 +46,99 @@ body{
 .box-container{
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
+    border-radius: 7px;
+    width: 1000px;
+    height: 250;
+    gap: 100px;
+    background-color: #242a54;
+}
+.first-box{
+    height: 90px;
+    overflow: hidden;
+    border-radius: 5px;
+   align-items: center;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.box-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nov{
+    margin-top: 30px;
+    background-color: rgb(246, 177, 75);
+    padding: 15px;
+}
+.year{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 11.5px;
+    
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.box-icon-h4{
+    padding-right: 20px;
+}
+.box-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.upcomming-h4{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px ;
+    color: white;
+}
+.upcomming-h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: white;
+}
+.box-icon-h4{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+.btn-apply{
+   
+    padding:15px 40px;
+    margin-top: 65px;
+    background-color: rgb(246, 177, 75) ;
+    border: none;
+    border-radius: 6px;
+}
+.icon{
+    
+    width: 40px;
+    color:  rgb(246, 177, 75);
+    background-color: white;
+    border-radius: 5px;
+     margin-right: 5px;
+}
+
+.second-section{
+    height: 100vh;
+}
+.horizontal-line{
+    margin: 200px 0px 150px 0px ;
+}
+.second-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     justify-content: center; 
 }
