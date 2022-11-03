@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter',sans-serif;
+}
+.hero-section{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     justify-content: center;
+}
+.hero-icon{
+    width: 100px;
+    margin: 10px 0px 160px 0px ;
+}
+.hero-h1{
+    /* background-color: wheat; */
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 72px;
+    color: #242a54  ;
+   
+}
+.hero-para{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+}
+.hero-spcl{
+    font-size: 20px;
+    line-height: 28px;
+    color: #068a9b  ;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
