@@ -42,3 +42,8 @@ body{
     font-weight: 700;
     margin-bottom: 100px;
 }
+.box-container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
