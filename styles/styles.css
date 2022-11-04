@@ -336,6 +336,7 @@ body{
     width: 105px;
     overflow: hidden;
     border-radius: 6px;
+    padding-left: 60px;
     height: 40px;
 }
 .yearesh{
@@ -366,4 +367,11 @@ body{
 .join-fast{
     display: flex;
     flex-direction: column;
+}
+.upcomming-text{
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.become-h2{
+    padding-left: 30px;
 }
