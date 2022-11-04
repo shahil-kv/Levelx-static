@@ -203,7 +203,7 @@ body{
 .ready-box{
     background-color: rgb(180, 237, 248);
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -219,10 +219,35 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 50px;
+    gap: 100px;
 }
 .ready-circle{
-    width: 50%;
-    height: 50%;
+    position: absolute;
+    top:20px;
+    left:20px;
+    bottom: 45px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     background-color: white;
+}
+.ready-box-large{
+    
+    /* border: 1px solid red; */
+    width: 150px;
+}
+.ready-box-1{
+    /* border: 1px solid black; */
+    padding-top: 40px;
+    padding-left: 40px;
+    position: relative;
+}
+.ready-box-small{
+    width: 70px;
+    height: 130px;
+    border: 2px solid #068a9b;
+    border-style: dashed;
+   border-bottom: 5px;
+   border-right: 5px;
+   padding: 32px 0px 0px 32px ;
 }
