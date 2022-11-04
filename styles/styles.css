@@ -318,17 +318,21 @@ body{
     justify-content: space-between;
     gap: 20px;
     /* margin-right: 40px; */
+    overflow: hidden;
+    border-radius: 10px;
     width: 560px;
-   background-color: yellow;
+   background-color: rgb(225, 248, 252);
    /* padding: 60px; */
 }
 .upcomming-container.last{
-    background-color: red;
+    background-color: rgb(253, 242, 224);
     margin-left: 150px;
+    overflow: hidden;
 }
 .upcomming-section{
     display: flex;
     flex-direction: row;
+    margin-bottom: 200px;
 }
 .cal-container{
     display: flex;
@@ -336,7 +340,8 @@ body{
     width: 105px;
     overflow: hidden;
     border-radius: 6px;
-    padding-left: 60px;
+    margin-left: 60px;
+    /* padding-left: 60px; */
     height: 40px;
 }
 .yearesh{
@@ -345,7 +350,7 @@ body{
     padding: 12px;
 }
 .monthes{
-    background-color: black;
+    background-color:rgb(246, 177, 75);
     height: 40px;
     padding: 12px;
 }
@@ -353,16 +358,18 @@ body{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    padding-left: 60px;
 }
 .months{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    padding-left: 60px;
 }
 .join{
    background-color: paleturquoise;
-   padding: 0px;
+   padding: 30px;
    margin: 0px;
+   text-align: center;
 }
 .join-fast{
     display: flex;
@@ -371,7 +378,41 @@ body{
 .upcomming-text{
     padding-top: 60px;
     padding-left: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
 }
 .become-h2{
-    padding-left: 30px;
+    padding-left: 60px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #242a54;
 }
+.course-content.fl{
+    padding-left: 60px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(242, 145, 21);
+}
+.course-content{
+   color: #068a9b;
+   padding-left: 60px;
+}
+.course-para{
+    padding-left: 60px;
+    width: 400px;
+}
+.soft-icons{
+    padding-left: 60px;
+}
+.offline{
+    font-size: 16px;
+    font-weight: 400;
+    color: #242a54;
+}
+.join.ls{
+    background-color:rgb(246, 177, 75) ;
+}
+
