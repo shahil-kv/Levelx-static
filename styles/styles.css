@@ -91,8 +91,8 @@ body{
     padding-right: 20px;
 }
 .box-text{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .upcomming-h4{
     font-weight: 600;
@@ -147,7 +147,7 @@ body{
 }
 .second-para{
     margin-top: 40px;
-    margin-bottom: 150px;
+    margin-bottom: 130px;
     font-weight: 300;
     font-size: 22px;
     line-height: 28px;
@@ -156,4 +156,73 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* margin-left: 25px;
+    margin-right: 25px; */
+    margin: 0px 25px 150px 25px;
+}
+.container-box{
+    margin: 30px 10px 15px 20px ;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.first.box{
+    background-color: rgb(180, 237, 248);
+    padding: 20px;
+}
+.second.box{
+    padding: 20px;
+    background-color: rgb(251, 221, 177);
+}
+.third.box{
+    padding: 20px;
+    background-color: rgb(167, 243, 208);
+}
+.fourth.box{
+    padding: 20px;
+    background-color: rgb(216, 180, 254);
+}
+.box-hr{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.box-text{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #242a54 ;
+}
+.box-para{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+    margin-bottom: 50px;
+}
+.ready-box{
+    background-color: rgb(180, 237, 248);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 400px;
+    margin-bottom: 200px;
+}
+.ready-text{
+    margin-top:40px ;
+    margin-bottom:40px ;
+}
+.ready-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+.ready-circle{
+    width: 50%;
+    height: 50%;
+    background-color: white;
 }
