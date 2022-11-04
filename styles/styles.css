@@ -78,7 +78,8 @@ body{
 .year{
     background-color: white;
     margin-bottom: 20px;
-    padding: 11.5px;
+   padding: 12px;
+   height: 45px;
     
 }
 .icon-container{
@@ -337,27 +338,26 @@ body{
 .cal-container{
     display: flex;
     flex-direction: row;
-    width: 105px;
+    width: 200px;
     overflow: hidden;
     border-radius: 6px;
     margin-left: 60px;
-    /* padding-left: 60px; */
-    height: 40px;
+    height: 60px;
 }
 .yearesh{
     background-color: white;
-    height: 100px;
-    padding: 12px;
+    height: 200px;
+    padding: 26px;
 }
 .monthes{
     background-color:rgb(246, 177, 75);
-    height: 40px;
-    padding: 12px;
+    height: 80px;
+    width: 70px;
+    padding:26px;
 }
 .offline{
     display: flex;
     flex-direction: row;
-    gap: 10px;
     padding-left: 60px;
 }
 .months{
@@ -367,7 +367,7 @@ body{
 }
 .join{
    background-color: paleturquoise;
-   padding: 30px;
+   padding: 10px;
    margin: 0px;
    text-align: center;
 }
@@ -414,5 +414,99 @@ body{
 }
 .join.ls{
     background-color:rgb(246, 177, 75) ;
+}
+.join-text{
+    font-size: 14px;
+    line-height: 36px;
+    color: #242a54;
+    font-weight: 500;
+}
+.freq-h1{
+    font-size: 48px;
+    line-height: 48px;
+    color: #242a54;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.freq-para{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+.container-freq{
+    display: flex;
+    flex-direction: column;
+}
+.cost{
+    border: 1px solid rgba(174, 166, 166, 0.495);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 1000px;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.cost.freq2{
+    padding: 40px 0px 40px 20px;
+}
+.cost.freq3{
+    padding: 40px 0px 40px 20px;
+}
+.cost.freq4{
+    padding: 30px 0px 40px 20px;
+}
+.freq-h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #242a54;
+}
+.ready-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    background-color: rgb(23, 195, 226);
+    width: 100vw;
+    margin-bottom: 50px;
+
+}
+.ready-para{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+}
+.ready-h1{
+    font-size: 48px;
+    line-height: 48px;
+    color: #242a54;
+    font-weight: 700;
+    text-align: center;
+}
+.whats-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    padding: 10px 0px 10px 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.ready-chat{ 
+    margin-top: 5px;
+    padding-right: 10px;
+}
+.whats-icon:hover{
+    background-color: rgb(36, 42, 84);
+    color: white;
 }
 
