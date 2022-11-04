@@ -318,10 +318,43 @@ body{
     justify-content: space-between;
     gap: 20px;
     /* margin-right: 40px; */
-    width: 660px;
+    width: 560px;
    background-color: yellow;
+   padding: 60px;
+}
+.upcomming-container.last{
+    background-color: red;
+    margin-left: 150px;
 }
 .upcomming-section{
     display: flex;
     flex-direction: row;
+}
+.cal-container{
+    display: flex;
+    flex-direction: row;
+    width: 105px;
+    overflow: hidden;
+    border-radius: 6px;
+    height: 40px;
+}
+.yearesh{
+    background-color: white;
+    height: 100px;
+    padding: 12px;
+}
+.monthes{
+    background-color: black;
+    height: 40px;
+    padding: 12px;
+}
+.offline{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.months{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
