@@ -320,7 +320,7 @@ body{
     /* margin-right: 40px; */
     width: 560px;
    background-color: yellow;
-   padding: 60px;
+   /* padding: 60px; */
 }
 .upcomming-container.last{
     background-color: red;
@@ -357,4 +357,13 @@ body{
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+.join{
+   background-color: paleturquoise;
+   padding: 0px;
+   margin: 0px;
+}
+.join-fast{
+    display: flex;
+    flex-direction: column;
 }
