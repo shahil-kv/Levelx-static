@@ -471,7 +471,7 @@ body{
     padding-bottom: 30px;
     background-color: rgb(23, 195, 226);
     width: 100vw;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 
 }
 .ready-para{
@@ -509,4 +509,65 @@ body{
     background-color: rgb(36, 42, 84);
     color: white;
 }
-
+.footer-section{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.footer-container{
+    padding: 40px 100px 0px 50px ;
+    display: flex;
+    flex-direction:row ;
+    gap:140px;
+}
+.footer-section{
+    background-color: #242a54;
+    height: 300px;
+}
+.icon-footer{
+    width: 110px;
+    margin-bottom: 20px;
+}
+.footer-last{
+    color: rgb(208, 203, 203);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    width: 200px;
+}
+.first-footer{
+    margin-top: 10px;
+}
+.second-footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.third-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    height: 70px;
+}
+.second-h4{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    
+}
+.copyright{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c4cadc ;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+}
